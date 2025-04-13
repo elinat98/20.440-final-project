@@ -1,0 +1,33 @@
+Network reloaded from network.gpickle
+Total Number of Nodes: 449598
+Total Number of Edges: 1150149
+Graph Density: 5.689922234706078e-06
+Average Node Degree: 5.116343933914297
+
+Node Type Counts:
+  Chemical: 423538
+  Gene: 18328
+  Disease: 667
+  Variant: 6475
+  Haplotype: 590
+
+Edge Relation Counts:
+  drug-protein: 941687
+  other: 15718
+  drug-variant: 29848
+  protein-disease: 15672
+  variant-disease: 26486
+  protein-protein: 120738
+
+Dataset-specific Node Counts (via edge sources):
+  BindingDB: 51338
+  DTC: 399251
+  PharmGKB: 11407
+  BioPlex: 13689
+
+Pairwise Overlap (number of common nodes) between Datasets:
+           BindingDB     DTC  PharmGKB  BioPlex
+BindingDB      51338   24118       278      244
+DTC            24118  399251       985     1038
+PharmGKB         278     985     11407      708
+BioPlex          244    1038       708    13689
