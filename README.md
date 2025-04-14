@@ -45,7 +45,7 @@ python graph-network.py network.gpickle
 The code once executed will put out a `network-stats.txt` file with information on the number of nodes, edges, graph density, and average node degree as well as node type counts, edge relation counts, and data-set sepecific node counts as well as pairwise overlap between datasets. The script will also produce figures displaying the data in network-stats.txt such as `edge_relation_counts.png`, a histogram of edge relations types, `node_counts_by_type.png`, a histogram of node types, and `overlap_heatmap.png`, a heatmap showing overlap between datasets. 
 
 
-## 6. Citations 
+# Citations 
 Wishart, D. S., Feunang, Y. D., Guo, A. C., Lo, E. J., Marcu, A., Grant, J. R., ... & Wilson, M. (2018). DrugBank 5.0: a major update to the DrugBank database for 2018. Nucleic Acids Research, 46(D1), D1074-D1082.
 
 Gilson, M. K., Liu, T., Baitaluk, M., Nicola, G., Hwang, L., & Chong, J. (2016). BindingDB in 2015: A public database for medicinal chemistry, computational chemistry and systems pharmacology. Nucleic Acids Research, 44(D1), D1045-D1053.
