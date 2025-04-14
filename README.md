@@ -14,6 +14,8 @@ Data from these databases were all processed and standardized to standard naming
 
 # Data
 
+Datasets and premade network file are stored in the `data` folder. Files that are `.tsv` or `.csv` files are raw data directly from the source (ie PharmGKB, or DTC), whereas `.json` files are premade dictionaries mapping entries of a dataset to a common identifier ie UniProt ID or CHEMBL ID. These were generated with separate data processessing scripts. The `network.gpickle` file was generated in python with the `networkx` package as a heterogenous network using data from the dataset files included in the `data` folder, using the `.json` dictionaries to map entries to common identifiers. 
+
 # Installation and Running  
 This guide explains how to set up your environment and run the network analysis code for a given network (saved in a .gpickle format)
 
