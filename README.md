@@ -32,7 +32,7 @@ conda activate network_analysis
   ```
 ## 3. Install the required packages using Conda
   ```sh
- conda install -y networkx numpy matplotlib pandas pickle torch chembl_webresource_client scipy tqdm
+ conda install -y networkx numpy matplotlib pandas pickle torch chembl_webresource_client scipy tqdm umap seaborn scikit-learn umap-learn
  ```
 
 
