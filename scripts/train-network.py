@@ -92,7 +92,7 @@ X_list = [pad_features(node_features[n], target_dim=1280) for n in node_list]
 X = torch.tensor(np.vstack(X_list), dtype=torch.float32).to(device)
 
 # ----- 3) Reload Precomputed Adjacency & Hops -----
-adj_path = "A_sparse_and_K.gpickle"
+adj_path = "training_files/A_sparse_and_K.gpickle"
 if not os.path.exists(adj_path):
     raise FileNotFoundError(f"{adj_path} not found!")
 with open(adj_path, "rb") as f:
@@ -139,8 +139,8 @@ def load_split(path):
         data["labels"].cpu().long()
     )
 
-train_src, train_dst, train_labels = load_split("train_data.gpickle")
-test_src,  test_dst,  test_labels  = load_split("test_data.gpickle")
+train_src, train_dst, train_labels = load_split("training_files/train_data.gpickle")
+test_src,  test_dst,  test_labels  = load_split("training_files/test_data.gpickle")
 print(f"✔ Loaded train ({len(train_src)}) / test ({len(test_src)}) edges")
 
 
