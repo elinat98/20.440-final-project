@@ -1,0 +1,19 @@
+name: network_analysis # Replace with your preferred environment name
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10  
+  - networkx
+  - numpy
+  - matplotlib
+  - pandas
+  - pickle  
+  - pytorch
+  - chembl_webresource_client
+  - scipy
+  - tqdm
+  - umap-learn
+  - seaborn
+  - scikit-learn
